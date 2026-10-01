@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 31 v appce, zatím **bez portrétů** (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 31 v appce, **15 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco). Zbylých 16 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** zatím žádná z 18.
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -21,9 +21,9 @@ Appka funguje úplně stejně jako díl 1 i bez obrázků a audia — postavy ma
 
 Appka je jen česky (žádný jazykový přepínač). Jména míst a postav drží oficiální překlad **Pavla Medka** (Bradavice, Nebelvír, Brumbál, Zlatoslav Lockhart, Kornelius Popletal…) — u pár méně jistých jmen (viz níže) to prosím ověř podle svého výtisku. Appka má **vlastní, nezávislý postup čtení** (jiný localStorage klíč než díl 1) — i když jsou obě appky na stejné doméně `vitekmaca.github.io`, progres se nijak nemíchá.
 
-## ⚠️ Autorská práva
+## ⚠️ Autorská práva — proč musí repo zůstat soukromé
 
-Appka zatím neobsahuje žádné obrázky z Jim Kayho Illustrated Edition ani odjinud — jakmile přibudou portréty/ilustrace stejným způsobem jako u dílu 1, platí úplně stejné pravidlo: repo smí zůstat veřejné jen do doby, než tam jsou obrázky, viz [README dílu 1](https://github.com/vitekmaca/readHP#️-autorská-práva--proč-musí-repo-zůstat-soukromé) pro přesné zdůvodnění. Než obrázky přibydou, není repo potřeba skrývat.
+15 portrétů (postavy vracející se z dílu 1) je převzato přímo z `readHP` — naskenované/vyfocené stránky z **Jim Kayho Illustrated Edition** (Bloomsbury/Scholastic), komerční chráněné dílo, ne volně šiřitelné. Platí úplně stejné pravidlo jako u dílu 1: použití je v pořádku jen jako **osobní, neveřejná appka pro rodinu**. Repo **nesmí** být veřejné a GitHub Pages **nesmí** být zapnuté, dokud tyhle obrázky v `assets/` jsou.
 
 ## Struktura projektu
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Potřeba **49 souborů** celkem (18 scén + 31 portrétů), `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **49 souborů** celkem (18 scén + 31 portrétů) už 15 portrétů je hotovo (převzato z dílu 1), zbývá **34** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -80,39 +80,39 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 
 `assets/portraits/<id>.jpg` — orientace na výšku (poměr stran 3:4).
 
-| soubor | postava |
-|---|---|
-| `harry.jpg` | Harry Potter |
-| `ron.jpg` | Ron Weasley |
-| `hermiona.jpg` | Hermiona Grangerová |
-| `hagrid.jpg` | Hagrid |
-| `brumbal.jpg` | Albus Brumbál |
-| `mcgonagallova.jpg` | Minerva McGonagallová |
-| `snape.jpg` | Severus Snape |
-| `neville.jpg` | Neville Longbottom |
-| `nick.jpg` | Skoro bezhlavý Nick |
-| `filch.jpg` | Argus Filch |
-| `norrisova.jpg` | Paní Norrisová (kočka) |
-| `fredgeorge.jpg` | Fred a George Weasleyovi |
-| `percy.jpg` | Percy Weasley |
-| `madampomfreyova.jpg` | Madame Pomfreyová |
-| `ginny.jpg` | Ginny Weasleyová |
-| `dobby.jpg` | Dobby |
-| `lockhart.jpg` | Zlatoslav Lockhart |
-| `myrtle.jpg` | Ufňukaná Uršula |
-| `colin.jpg` | Colin Creevey |
-| `riddle.jpg` | Tom Rojvol Raddle |
-| `voldemort.jpg` | Voldemort |
-| `lucius.jpg` | Lucius Malfoy |
-| `sprout.jpg` | Profesorka Prýtová |
-| `aragog.jpg` | Aragog (pavouk) |
-| `fawkes.jpg` | Fawkes (fénix) |
-| `bazilisek.jpg` | Bazilišek |
-| `artur.jpg` | Artuš Weasley |
-| `molly.jpg` | Molly Weasleyová |
-| `justin.jpg` | Justin Finch-Fletchley |
-| `popletal.jpg` | Kornelius Popletal |
-| `draco.jpg` | Draco Malfoy |
+| soubor | postava | |
+|---|---|---|
+| `harry.jpg` | Harry Potter | ✅ (z dílu 1) |
+| `ron.jpg` | Ron Weasley | ✅ (z dílu 1) |
+| `hermiona.jpg` | Hermiona Grangerová | ✅ (z dílu 1) |
+| `hagrid.jpg` | Hagrid | ✅ (z dílu 1) |
+| `brumbal.jpg` | Albus Brumbál | ✅ (z dílu 1) |
+| `mcgonagallova.jpg` | Minerva McGonagallová | ✅ (z dílu 1) |
+| `snape.jpg` | Severus Snape | ✅ (z dílu 1) |
+| `neville.jpg` | Neville Longbottom | ✅ (z dílu 1) |
+| `nick.jpg` | Skoro bezhlavý Nick | ✅ (z dílu 1) |
+| `filch.jpg` | Argus Filch | ✅ (z dílu 1) |
+| `fredgeorge.jpg` | Fred a George Weasleyovi | ✅ (z dílu 1) |
+| `percy.jpg` | Percy Weasley | ✅ (z dílu 1) |
+| `madampomfreyova.jpg` | Madame Pomfreyová | ✅ (z dílu 1) |
+| `voldemort.jpg` | Voldemort | ✅ (z dílu 1) |
+| `draco.jpg` | Draco Malfoy | ✅ (z dílu 1) |
+| `norrisova.jpg` | Paní Norrisová (kočka) | |
+| `ginny.jpg` | Ginny Weasleyová | |
+| `dobby.jpg` | Dobby | |
+| `lockhart.jpg` | Zlatoslav Lockhart | |
+| `myrtle.jpg` | Ufňukaná Uršula | |
+| `colin.jpg` | Colin Creevey | |
+| `riddle.jpg` | Tom Rojvol Raddle | |
+| `lucius.jpg` | Lucius Malfoy | |
+| `sprout.jpg` | Profesorka Prýtová | |
+| `aragog.jpg` | Aragog (pavouk) | |
+| `fawkes.jpg` | Fawkes (fénix) | |
+| `bazilisek.jpg` | Bazilišek | |
+| `artur.jpg` | Artuš Weasley | |
+| `molly.jpg` | Molly Weasleyová | |
+| `justin.jpg` | Justin Finch-Fletchley | |
+| `popletal.jpg` | Kornelius Popletal | |
 
 ### Styl
 
