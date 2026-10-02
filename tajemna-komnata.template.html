@@ -464,7 +464,8 @@
     lockhart:'__IMG_lockhart__',myrtle:'__IMG_myrtle__',colin:'__IMG_colin__',riddle:'__IMG_riddle__',
     voldemort:'__IMG_voldemort__',lucius:'__IMG_lucius__',sprout:'__IMG_sprout__',aragog:'__IMG_aragog__',
     fawkes:'__IMG_fawkes__',bazilisek:'__IMG_bazilisek__',artur:'__IMG_artur__',molly:'__IMG_molly__',
-    justin:'__IMG_justin__',popletal:'__IMG_popletal__',draco:'__IMG_draco__'
+    justin:'__IMG_justin__',popletal:'__IMG_popletal__',draco:'__IMG_draco__',
+    crabbegoyle:'__IMG_crabbegoyle__',vernon:'__IMG_vernon__',kratiknot:'__IMG_kratiknot__',wood:'__IMG_wood__',hedvika:'__IMG_hedvika__'
   };
   function hasPortrait(id){var u=PORTRAITS[id];return !!(u&&u.slice(0,5)==='data:');}
   function imgPortrait(id,alt){return hasPortrait(id)?'<img src="'+PORTRAITS[id]+'" alt="'+esc(alt||'')+'" loading="lazy">':null;}
@@ -597,10 +598,23 @@
       dad:'Ministr kouzel, jehož rozhodnutí odvést Hagrida je motivováno spíš politickým tlakem než skutečnými důkazy.'},
     {id:'draco',gi:4,name:'Draco Malfoy',en:'Draco Malfoy',race:'kouzelnik',rlab:'Zmijozel',ic:'kouzelnik',
       kid:'Harryho stálý soupeř ze Zmijozelu je letos ještě nafoukanější — jeho otec mu koupil místo v famfrpálovém týmu a nahlas si přeje, aby byl Harry další obětí.',
-      dad:'Harryho rival. Jeho nenávist k „šmejdům" a narážky na to, kdo by mohl být dědicem Zmijozelu, z něj dělají hlavního podezřelého.'}
+      dad:'Harryho rival. Jeho nenávist k „šmejdům" a narážky na to, kdo by mohl být dědicem Zmijozelu, z něj dělají hlavního podezřelého.'},
+    {id:'crabbegoyle',gi:11,name:'Crabbe a Goyle',en:'Vincent Crabbe and Gregory Goyle',race:'kouzelnik',rlab:'Zmijozelští pohůnci',ic:'kouzelnik',
+      kid:'Dva mohutní, ne příliš bystří kluci ze Zmijozelu, kteří chodí všude za Dracem jako stíny. Když se Harry s Ronem převlékají za ně, přijdou o to nejvíc — o chvíli ticha a o oblečení.',
+      dad:'Dracovi tělesní strážci a poslušné ruce. V kapitole o Mnoholičném lektvaru jsou nevědomými „oběťmi" přestrojení — Hermiona jim uspí a Harry s Ronem se pak vydávají za ně.'},
+    {id:'vernon',gi:1,name:'Strýc Vernon Dursley',en:'Vernon Dursley',race:'mudla',rlab:'Mudla',ic:'mudla',
+      kid:'Harryho protivný strýc, kterému vadí všechno neobvyklé. Důležitá večeře s panem Masonem je pro něj to nejdůležitější na světě — a Dobby ji zničí.',
+      dad:'Hlava dursleyovské rodiny. Večeře s obchodním partnerem má zachránit jeho kariéru a Harryho se bojí jako ohně, aby nic nepokazil. Když pokazí všechno Dobby, zamkne Harryho za mříže.'},
+    {id:'kratiknot',gi:11,name:'Profesor Kratiknot',en:'Professor Flitwick',race:'kouzelnik',rlab:'Profesor kouzelných formulí',ic:'kouzelnik',
+      kid:'Maličký profesor, který musí při výuce stát na hromadě knih, aby na žáky vůbec dosáhl. Na souboji kouzelníků předvádí ukázku — a nezvládne to úplně hladce.',
+      dad:'Vedoucí Havraspáru a vynikající bojovník s hůlkou. Zpočátku ho podceňujeme kvůli výšce, ale jeho umění je tichou ukázkou toho, že velikost nerozhoduje.'},
+    {id:'wood',gi:10,name:'Oliver Wood',en:'Oliver Wood',race:'kouzelnik',rlab:'Kapitán famfrpálu',ic:'kouzelnik',
+      kid:'Kapitán nebelvírského famfrpálového týmu, který žije jen pro famfrpál. Zápas nepřeruší, ani když mu Harry po zlomené ruce ukáže, že se to nedá.',
+      dad:'Vášnivý kapitán týmu, jehož jediný cíl je vyhrát Školní pohár. V desáté kapitole trvá na hře, i když je zjevné, že je potlouk zlomyslně začarovaný.'},
+    {id:'hedvika',gi:1,name:'Hedvika',en:'Hedwig',race:'zvire',rlab:'Harryho sova',ic:'zvire',
+      kid:'Sněhobílá sova, která je Harryho nejvěrnějším společníkem. Roznáší dopisy a v Dursleyových domě je pro Harryho jedinou přítelkyní, dokud ho nezachrání kamarádi.',
+      dad:'Harryho sova, dar od Hagrida. V Dursleyových domě je jeho jediným spojením s kouzelnickým světem a taky jeho společníkem v nejtěžších chvílích.'}
   ];
-
-
   var CHARMAP={}; CHARS.forEach(function(c){CHARMAP[c.id]=c;});
   var SHORT={harry:'Harry',ron:'Ron',hermiona:'Hermiona',hagrid:'Hagrid',brumbal:'Brumbál',mcgonagallova:'McGonagallová',ginny:'Ginny',dobby:'Dobby'};
 
@@ -680,6 +694,23 @@
     molly:{ahead:'Proč je podle tebe důležité mít doma někoho, kdo tě přísně, ale s láskou, drží za slovo?',beats:[
       [3,'Přijme Harryho do rodiny jako vlastního, jakmile ho synové přivezou létajícím autem.'],
       [5,'Pošle synům vyřvávající dopis (Howler) přímo do Velké síně za ukradené auto.']
+    ]},
+    vernon:{ahead:'Myslíš, že měl strýc Vernon pravdu, když se tolik bál Dobbyho?',beats:[
+      [1,'Chystá důležitou večeři s panem Masonem a Harrymu přísně zakáže, aby se objevil.'],
+      [2,'Po katastrofě s dortem je zuřivý — Harryho zamkne v pokoji a dá mu na okno mříže.']
+    ]},
+    crabbegoyle:{ahead:'Jak se ti líbí, že se z nich stali takoví poslušní sluhové?',beats:[
+      [11,'Na souboji kouzelníků stojí po Dracově boku a fandí mu.'],
+      [12,'Harry s Ronem jim v přestrojení ukradnou podobu a vyptají se Draca.']
+    ]},
+    kratiknot:{ahead:'Proč si myslíš, že malý profesor bývá zrovna nejlepší na souboj?',beats:[
+      [11,'Na souboji kouzelníků předvádí ukázku souboje a obdivuje Snapea i Lockharta.']
+    ]},
+    wood:{ahead:'Jak by ses cítil, kdyby ti kapitán nedovolil odejít ze hřiště, i když tě bolí ruka?',beats:[
+      [10,'Trvá na tom, že se zápas dohraje, i když potlouk Harryho zjevně pronásleduje.']
+    ]},
+    hedvika:{ahead:'Co by sis napsal své sově, kdyby ti někdo na dopisy odpovídal?',beats:[
+      [1,'Zavřená v kleci čeká, až bude Harry moct poslat dopis kamarádům.']
     ]}
   };
 

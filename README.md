@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 31 v appce, **15 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco). Zbylých 16 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 36 v appce, **16 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon). Zbylých 20 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** zatím žádná z 18.
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **49 souborů** celkem (18 scén + 31 portrétů) už 15 portrétů je hotovo (převzato z dílu 1), zbývá **34** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 16 portrétů je hotovo (převzato z dílu 1), zbývá **38** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -76,7 +76,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | 17 | Harry s mečem čelí Baziliškovi, nad hlavou fénix Fawkes |
 | 18 | Harry podává Luciusovi ponožku, Dobby září štěstím |
 
-### 31 portrétů postav
+### 36 portrétů postav
 
 `assets/portraits/<id>.jpg` — orientace na výšku (poměr stran 3:4).
 
@@ -97,6 +97,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `madampomfreyova.jpg` | Madame Pomfreyová | ✅ (z dílu 1) |
 | `voldemort.jpg` | Voldemort | ✅ (z dílu 1) |
 | `draco.jpg` | Draco Malfoy | ✅ (z dílu 1) |
+| `vernon.jpg` | Strýc Vernon Dursley | ✅ (z dílu 1) |
 | `norrisova.jpg` | Paní Norrisová (kočka) | |
 | `ginny.jpg` | Ginny Weasleyová | |
 | `dobby.jpg` | Dobby | |
@@ -113,6 +114,10 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `molly.jpg` | Molly Weasleyová | |
 | `justin.jpg` | Justin Finch-Fletchley | |
 | `popletal.jpg` | Kornelius Popletal | |
+| `crabbegoyle.jpg` | Crabbe a Goyle | |
+| `kratiknot.jpg` | Profesor Kratiknot | |
+| `wood.jpg` | Oliver Wood | |
+| `hedvika.jpg` | Hedvika (sova) | |
 
 ### Styl
 
