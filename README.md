@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 31 v appce, **15 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco). Zbylých 16 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 29 v appce, **15 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco). Zbylých 14 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** zatím žádná z 18.
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **49 souborů** celkem (18 scén + 31 portrétů) už 15 portrétů je hotovo (převzato z dílu 1), zbývá **34** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **47 souborů** celkem (18 scén + 29 portrétů) už 15 portrétů je hotovo (převzato z dílu 1), zbývá **32** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -76,7 +76,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | 17 | Harry s mečem čelí Baziliškovi, nad hlavou fénix Fawkes |
 | 18 | Harry podává Luciusovi ponožku, Dobby září štěstím |
 
-### 31 portrétů postav
+### 29 portrétů postav
 
 `assets/portraits/<id>.jpg` — orientace na výšku (poměr stran 3:4).
 
@@ -102,16 +102,14 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `dobby.jpg` | Dobby | |
 | `lockhart.jpg` | Zlatoslav Lockhart | |
 | `myrtle.jpg` | Ufňukaná Uršula | |
-| `colin.jpg` | Colin Creevey | |
 | `riddle.jpg` | Tom Rojvol Raddle | |
 | `lucius.jpg` | Lucius Malfoy | |
 | `sprout.jpg` | Profesorka Prýtová | |
 | `aragog.jpg` | Aragog (pavouk) | |
 | `fawkes.jpg` | Fawkes (fénix) | |
 | `bazilisek.jpg` | Bazilišek | |
-| `artur.jpg` | Artuš Weasley | |
+| `artur.jpg` | Arthur Weasley | |
 | `molly.jpg` | Molly Weasleyová | |
-| `justin.jpg` | Justin Finch-Fletchley | |
 | `popletal.jpg` | Kornelius Popletal | |
 
 ### Styl

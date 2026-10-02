@@ -461,10 +461,10 @@
     brumbal:'__IMG_brumbal__',mcgonagallova:'__IMG_mcgonagallova__',snape:'__IMG_snape__',neville:'__IMG_neville__',
     nick:'__IMG_nick__',filch:'__IMG_filch__',norrisova:'__IMG_norrisova__',fredgeorge:'__IMG_fredgeorge__',
     percy:'__IMG_percy__',madampomfreyova:'__IMG_madampomfreyova__',ginny:'__IMG_ginny__',dobby:'__IMG_dobby__',
-    lockhart:'__IMG_lockhart__',myrtle:'__IMG_myrtle__',colin:'__IMG_colin__',riddle:'__IMG_riddle__',
+    lockhart:'__IMG_lockhart__',myrtle:'__IMG_myrtle__',riddle:'__IMG_riddle__',
     voldemort:'__IMG_voldemort__',lucius:'__IMG_lucius__',sprout:'__IMG_sprout__',aragog:'__IMG_aragog__',
     fawkes:'__IMG_fawkes__',bazilisek:'__IMG_bazilisek__',artur:'__IMG_artur__',molly:'__IMG_molly__',
-    justin:'__IMG_justin__',popletal:'__IMG_popletal__',draco:'__IMG_draco__'
+    popletal:'__IMG_popletal__',draco:'__IMG_draco__'
   };
   function hasPortrait(id){var u=PORTRAITS[id];return !!(u&&u.slice(0,5)==='data:');}
   function imgPortrait(id,alt){return hasPortrait(id)?'<img src="'+PORTRAITS[id]+'" alt="'+esc(alt||'')+'" loading="lazy">':null;}
@@ -559,9 +559,6 @@
     {id:'myrtle',gi:8,name:'Ufňukaná Uršula',en:'Moaning Myrtle',race:'duch',rlab:'Duch dívčí toalety',ic:'duch',
       kid:'Věčně naštvaný a uplakaný duch strašící v rozbité dívčí toaletě v prvním patře — kdysi byla také žákyní Bradavic.',
       dad:'Duch, který zemřel přímo v téhle toaletě před padesáti lety — a její smrt souvisí s předchozím otevřením Tajemné komnaty víc, než by čekal.'},
-    {id:'colin',gi:6,name:'Colin Creevey',en:'Colin Creevey',race:'kouzelnik',rlab:'Nebelvírský prvák',ic:'kouzelnik',
-      kid:'Nadšený prvák z mudlovské rodiny, který je z kouzelnického světa a hlavně ze slavného Harryho Pottera naprosto u vytržení — a pořád ho fotí.',
-      dad:'Nadšenec s fotoaparátem, jehož mudlovský původ ho později přivede do vážného nebezpečí — přesně takového, jaké hrozí „šmejdům".'},
     {id:'riddle',gi:13,name:'Tom Rojvol Raddle',en:'Tom Marvolo Riddle',race:'zlo',rlab:'Záhadný bývalý žák',ic:'eye',say:'rajdl',
       kid:'Jméno zapsané v padesát let starém deníku, který Harry najde — ukáže se, že deník umí odpovídat a ukazovat vzpomínky svého majitele.',
       dad:'Vzpomínka bývalého premianta Bradavic uvězněná v kouzelném deníku. Jeho jméno skrývá anagram, který odhalí naprosto zásadní tajemství.'},
@@ -583,15 +580,12 @@
     {id:'bazilisek',gi:17,name:'Bazilišek',en:'The Basilisk',race:'zvire',rlab:'Netvor z komnaty',ic:'eye',
       kid:'Obrovský a smrtelně nebezpečný hadí netvor, který žije skrytý hluboko pod školou — jeho pohled dokáže na místě zabít.',
       dad:'Legendární netvor Zmijozelu, kterého do světa vypustil dědic komnaty. Přímý pohled zabíjí, nepřímý (přes odraz či fotoaparát) jen zkamení.'},
-    {id:'artur',gi:3,name:'Artuš Weasley',en:'Arthur Weasley',race:'kouzelnik',rlab:'Ronův táta',ic:'kouzelnik',
+    {id:'artur',gi:3,name:'Arthur Weasley',en:'Arthur Weasley',race:'kouzelnik',rlab:'Ronův táta',ic:'kouzelnik',
       kid:'Ronův táta pracuje na ministerstvu kouzel a je nadšeně zvědavý na úplně všechno mudlovské — od zástrček po gumové kachničky.',
       dad:'Pracuje na Úřadu pro zneužívání mudlovských výtvorů. Jeho láska k mudlovským věcem je zdrojem humoru i rodinného napětí s Luciusem Malfoyem.'},
     {id:'molly',gi:3,name:'Molly Weasleyová',en:'Molly Weasley',race:'kouzelnik',rlab:'Ronova máma',ic:'kouzelnik',
       kid:'Vřelá, ale přísná máma celé weasleyovské rodiny, která Harryho přijme jako vlastního — a synům pořádně vynadá za ukradené auto.',
       dad:'Srdce Doupěte. Její láskyplná, ale přísná ruka drží rodinu pohromadě — a její hlasatelská pověst (Howler) dorazí i do Bradavic.'},
-    {id:'justin',gi:9,name:'Justin Finch-Fletchley',en:'Justin Finch-Fletchley',race:'kouzelnik',rlab:'Mrzimor',ic:'kouzelnik',
-      kid:'Mrzimorský spolužák z mudlovské rodiny, který se Harryho nejdřív bojí — a pak se sám stane jednou z obětí útočníka.',
-      dad:'Student mudlovského původu, jehož zkamenění posílí podezření na Harryho poté, co ho slyšel mluvit hadím jazykem.'},
     {id:'popletal',gi:14,name:'Kornelius Popletal',en:'Cornelius Fudge',race:'kouzelnik',rlab:'Ministr kouzel',ic:'kouzelnik',
       kid:'Nervózní ministr kouzel v buřince, který raději udělá cokoliv rychle vypadajícího jako řešení, než by čekal na to skutečné.',
       dad:'Ministr kouzel, jehož rozhodnutí odvést Hagrida je motivováno spíš politickým tlakem než skutečnými důkazy.'},
