@@ -109,7 +109,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `aragog.jpg` | Aragog (pavouk) | |
 | `fawkes.jpg` | Fawkes (fénix) | |
 | `bazilisek.jpg` | Bazilišek | |
-| `artur.jpg` | Artuš Weasley | |
+| `artur.jpg` | Arthur Weasley | |
 | `molly.jpg` | Molly Weasleyová | |
 | `justin.jpg` | Justin Finch-Fletchley | |
 | `popletal.jpg` | Kornelius Popletal | |
