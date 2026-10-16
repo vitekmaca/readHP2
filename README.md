@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 36 v appce, **32 má portrét** — 16 převzatých z dílu 1 (u Draca a Hagrida nahrazeno novějším obrázkem) u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 16 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová, Tom Raddle, Kratiknot). Zbylých 4 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 32 v appce, **všech 32 má portrét** ✅ — 16 převzatých z dílu 1 (u Draca a Hagrida nahrazeno novějším obrázkem) u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 16 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová, Tom Raddle, Kratiknot). Z původního plánu vypadli Ufňukaná Uršula, Justin Finch-Fletchley, Crabbe a Goyle a Oliver Wood (bez obrázku).
 - **Ilustrace kapitol:** 1 z 18 (kap. 3, Ford Anglia nad Doupětem).
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 32 portrétů a 1 scéna je hotovo (převzato z dílu 1), zbývá **21** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **50 souborů** celkem (18 scén + 32 portrétů) je hotovo všech 32 portrétů a 1 scéna, zbývá **17** ilustrací kapitol — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -76,7 +76,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | 17 | Harry s mečem čelí Baziliškovi, nad hlavou fénix Fawkes |
 | 18 | Harry podává Luciusovi ponožku, Dobby září štěstím |
 
-### 36 portrétů postav
+### 32 portrétů postav
 
 `assets/portraits/<id>.jpg` — orientace na výšku (poměr stran 3:4).
 
@@ -102,7 +102,6 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `ginny.jpg` | Ginny Weasleyová | ✅ |
 | `dobby.jpg` | Dobby | ✅ |
 | `lockhart.jpg` | Zlatoslav Lockhart | ✅ |
-| `myrtle.jpg` | Ufňukaná Uršula | |
 | `colin.jpg` | Colin Creevey | ✅ |
 | `riddle.jpg` | Tom Rojvol Raddle | ✅ |
 | `lucius.jpg` | Lucius Malfoy | ✅ |
@@ -112,11 +111,8 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `bazilisek.jpg` | Bazilišek | ✅ |
 | `artur.jpg` | Arthur Weasley | ✅ |
 | `molly.jpg` | Molly Weasleyová | ✅ |
-| `justin.jpg` | Justin Finch-Fletchley | |
 | `popletal.jpg` | Kornelius Popletal | ✅ |
-| `crabbegoyle.jpg` | Crabbe a Goyle | |
 | `kratiknot.jpg` | Profesor Kratiknot | ✅ |
-| `wood.jpg` | Oliver Wood | |
 | `hedvika.jpg` | Hedvika (sova) | ✅ |
 
 ### Styl
@@ -127,7 +123,6 @@ Zatím nevyřešeno — stejná otázka jako u dílu 1: skeny z Illustrated Edit
 
 U pár jmen jsem si nebyl stoprocentně jistý přesným zněním v Medkově překladu — zkontroluj prosím v knize:
 - **Paní Norrisová** (Mrs Norris, Filchova kočka)
-- **Ufňukaná Uršula** (Moaning Myrtle)
 - **Tom Rojvol Raddle** (Tom Marvolo Riddle — v originále jde o anagram na „I am Lord Voldemort", Medkův překlad to řeší jménem, co se anagramem překládá na „Já Lord Voldemort")
 - **Profesorka Prýtová** (Professor Sprout)
 - **Kornelius Popletal** (Cornelius Fudge)

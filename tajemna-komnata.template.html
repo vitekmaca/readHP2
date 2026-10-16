@@ -461,11 +461,11 @@
     brumbal:'__IMG_brumbal__',mcgonagallova:'__IMG_mcgonagallova__',snape:'__IMG_snape__',neville:'__IMG_neville__',
     nick:'__IMG_nick__',filch:'__IMG_filch__',norrisova:'__IMG_norrisova__',fredgeorge:'__IMG_fredgeorge__',
     percy:'__IMG_percy__',madampomfreyova:'__IMG_madampomfreyova__',ginny:'__IMG_ginny__',dobby:'__IMG_dobby__',
-    lockhart:'__IMG_lockhart__',myrtle:'__IMG_myrtle__',colin:'__IMG_colin__',riddle:'__IMG_riddle__',
+    lockhart:'__IMG_lockhart__',colin:'__IMG_colin__',riddle:'__IMG_riddle__',
     voldemort:'__IMG_voldemort__',lucius:'__IMG_lucius__',sprout:'__IMG_sprout__',aragog:'__IMG_aragog__',
     fawkes:'__IMG_fawkes__',bazilisek:'__IMG_bazilisek__',artur:'__IMG_artur__',molly:'__IMG_molly__',
-    justin:'__IMG_justin__',popletal:'__IMG_popletal__',draco:'__IMG_draco__',
-    crabbegoyle:'__IMG_crabbegoyle__',vernon:'__IMG_vernon__',kratiknot:'__IMG_kratiknot__',wood:'__IMG_wood__',hedvika:'__IMG_hedvika__'
+    popletal:'__IMG_popletal__',draco:'__IMG_draco__',
+    vernon:'__IMG_vernon__',kratiknot:'__IMG_kratiknot__',hedvika:'__IMG_hedvika__'
   };
   function hasPortrait(id){var u=PORTRAITS[id];return !!(u&&u.slice(0,5)==='data:');}
   function imgPortrait(id,alt){return hasPortrait(id)?'<img src="'+PORTRAITS[id]+'" alt="'+esc(alt||'')+'" loading="lazy">':null;}
@@ -557,9 +557,6 @@
     {id:'lockhart',gi:4,name:'Zlatoslav Lockhart',en:'Gilderoy Lockhart',race:'kouzelnik',rlab:'Profesor obrany proti černé magii',ic:'kouzelnik',
       kid:'Slavný, nesmírně samolibý autor kouzelnických knih a nový profesor obrany proti černé magii, který je zamilovaný hlavně sám do sebe.',
       dad:'Celebrita s krásným úsměvem a nulovými praktickými schopnostmi. Jeho neschopnost je zdrojem humoru — i jednoho vážného nebezpečí.'},
-    {id:'myrtle',gi:8,name:'Ufňukaná Uršula',en:'Moaning Myrtle',race:'duch',rlab:'Duch dívčí toalety',ic:'duch',
-      kid:'Věčně naštvaný a uplakaný duch strašící v rozbité dívčí toaletě v prvním patře — kdysi byla také žákyní Bradavic.',
-      dad:'Duch, který zemřel přímo v téhle toaletě před padesáti lety — a její smrt souvisí s předchozím otevřením Tajemné komnaty víc, než by čekal.'},
     {id:'colin',gi:6,name:'Colin Creevey',en:'Colin Creevey',race:'kouzelnik',rlab:'Nebelvírský prvák',ic:'kouzelnik',
       kid:'Nadšený prvák z mudlovské rodiny, který je z kouzelnického světa a hlavně ze slavného Harryho Pottera naprosto u vytržení — a pořád ho fotí.',
       dad:'Nadšenec s fotoaparátem, jehož mudlovský původ ho později přivede do vážného nebezpečí — přesně takového, jaké hrozí „šmejdům".'},
@@ -590,27 +587,18 @@
     {id:'molly',gi:3,name:'Molly Weasleyová',en:'Molly Weasley',race:'kouzelnik',rlab:'Ronova máma',ic:'kouzelnik',
       kid:'Vřelá, ale přísná máma celé weasleyovské rodiny, která Harryho přijme jako vlastního — a synům pořádně vynadá za ukradené auto.',
       dad:'Srdce Doupěte. Její láskyplná, ale přísná ruka drží rodinu pohromadě — a její hlasatelská pověst (Howler) dorazí i do Bradavic.'},
-    {id:'justin',gi:9,name:'Justin Finch-Fletchley',en:'Justin Finch-Fletchley',race:'kouzelnik',rlab:'Mrzimor',ic:'kouzelnik',
-      kid:'Mrzimorský spolužák z mudlovské rodiny, který se Harryho nejdřív bojí — a pak se sám stane jednou z obětí útočníka.',
-      dad:'Student mudlovského původu, jehož zkamenění posílí podezření na Harryho poté, co ho slyšel mluvit hadím jazykem.'},
     {id:'popletal',gi:14,name:'Kornelius Popletal',en:'Cornelius Fudge',race:'kouzelnik',rlab:'Ministr kouzel',ic:'kouzelnik',
       kid:'Nervózní ministr kouzel v buřince, který raději udělá cokoliv rychle vypadajícího jako řešení, než by čekal na to skutečné.',
       dad:'Ministr kouzel, jehož rozhodnutí odvést Hagrida je motivováno spíš politickým tlakem než skutečnými důkazy.'},
     {id:'draco',gi:4,name:'Draco Malfoy',en:'Draco Malfoy',race:'kouzelnik',rlab:'Zmijozel',ic:'kouzelnik',
       kid:'Harryho stálý soupeř ze Zmijozelu je letos ještě nafoukanější — jeho otec mu koupil místo v famfrpálovém týmu a nahlas si přeje, aby byl Harry další obětí.',
       dad:'Harryho rival. Jeho nenávist k „šmejdům" a narážky na to, kdo by mohl být dědicem Zmijozelu, z něj dělají hlavního podezřelého.'},
-    {id:'crabbegoyle',gi:11,name:'Crabbe a Goyle',en:'Vincent Crabbe and Gregory Goyle',race:'kouzelnik',rlab:'Zmijozelští pohůnci',ic:'kouzelnik',
-      kid:'Dva mohutní, ne příliš bystří kluci ze Zmijozelu, kteří chodí všude za Dracem jako stíny. Když se Harry s Ronem převlékají za ně, přijdou o to nejvíc — o chvíli ticha a o oblečení.',
-      dad:'Dracovi tělesní strážci a poslušné ruce. V kapitole o Mnoholičném lektvaru jsou nevědomými „oběťmi" přestrojení — Hermiona jim uspí a Harry s Ronem se pak vydávají za ně.'},
     {id:'vernon',gi:1,name:'Strýc Vernon Dursley',en:'Vernon Dursley',race:'mudla',rlab:'Mudla',ic:'mudla',
       kid:'Harryho protivný strýc, kterému vadí všechno neobvyklé. Důležitá večeře s panem Masonem je pro něj to nejdůležitější na světě — a Dobby ji zničí.',
       dad:'Hlava dursleyovské rodiny. Večeře s obchodním partnerem má zachránit jeho kariéru a Harryho se bojí jako ohně, aby nic nepokazil. Když pokazí všechno Dobby, zamkne Harryho za mříže.'},
     {id:'kratiknot',gi:11,name:'Profesor Kratiknot',en:'Professor Flitwick',race:'kouzelnik',rlab:'Profesor kouzelných formulí',ic:'kouzelnik',
       kid:'Maličký profesor, který musí při výuce stát na hromadě knih, aby na žáky vůbec dosáhl. Na souboji kouzelníků předvádí ukázku — a nezvládne to úplně hladce.',
       dad:'Vedoucí Havraspáru a vynikající bojovník s hůlkou. Zpočátku ho podceňujeme kvůli výšce, ale jeho umění je tichou ukázkou toho, že velikost nerozhoduje.'},
-    {id:'wood',gi:10,name:'Oliver Wood',en:'Oliver Wood',race:'kouzelnik',rlab:'Kapitán famfrpálu',ic:'kouzelnik',
-      kid:'Kapitán nebelvírského famfrpálového týmu, který žije jen pro famfrpál. Zápas nepřeruší, ani když mu Harry po zlomené ruce ukáže, že se to nedá.',
-      dad:'Vášnivý kapitán týmu, jehož jediný cíl je vyhrát Školní pohár. V desáté kapitole trvá na hře, i když je zjevné, že je potlouk zlomyslně začarovaný.'},
     {id:'hedvika',gi:1,name:'Hedvika',en:'Hedwig',race:'zvire',rlab:'Harryho sova',ic:'zvire',
       kid:'Sněhobílá sova, která je Harryho nejvěrnějším společníkem. Roznáší dopisy a v Dursleyových domě je pro Harryho jedinou přítelkyní, dokud ho nezachrání kamarádi.',
       dad:'Harryho sova, dar od Hagrida. V Dursleyových domě je jeho jediným spojením s kouzelnickým světem a taky jeho společníkem v nejtěžších chvílích.'}
@@ -677,11 +665,6 @@
       [17,'Vyjeví Harrymu, kdo skutečně je — a přizná se, že díky Ginnyině psaní do deníku sílí.'],
       [17,'V souboji s Harrym ztrácí sílu, jakmile je zničen samotný deník.']
     ]},
-    myrtle:{ahead:'Proč myslíš, že Uršula pořád straší zrovna v té jedné rozbité toaletě?',beats:[
-      [8,'Na Deathday party se Harry, Ron a Hermiona setkají s jejím věčně uraženým, uplakaným duchem.'],
-      [12,'V její toaletě si trojice tajně uvaří zakázaný Mnoholičný lektvar.'],
-      [13,'Vyjde najevo, že to byla právě ona, kdo zemřel přímo v téhle toaletě před padesáti lety.']
-    ]},
     lucius:{ahead:'Co si myslíš o tom, jak se Lucius snaží zbavit Harryho i Hagrida, aniž by se sám ušpinil?',beats:[
       [4,'V knihkupectví se pohádá s panem Weasleym a nenápadně podstrčí něco do Ginnyina kotlíku.'],
       [14,'Jako člen školní rady tlačí na to, aby byl Brumbál dočasně zbaven postu ředitele.'],
@@ -699,15 +682,8 @@
       [1,'Chystá důležitou večeři s panem Masonem a Harrymu přísně zakáže, aby se objevil.'],
       [2,'Po katastrofě s dortem je zuřivý — Harryho zamkne v pokoji a dá mu na okno mříže.']
     ]},
-    crabbegoyle:{ahead:'Jak se ti líbí, že se z nich stali takoví poslušní sluhové?',beats:[
-      [11,'Na souboji kouzelníků stojí po Dracově boku a fandí mu.'],
-      [12,'Harry s Ronem jim v přestrojení ukradnou podobu a vyptají se Draca.']
-    ]},
     kratiknot:{ahead:'Proč si myslíš, že malý profesor bývá zrovna nejlepší na souboj?',beats:[
       [11,'Na souboji kouzelníků předvádí ukázku souboje a obdivuje Snapea i Lockharta.']
-    ]},
-    wood:{ahead:'Jak by ses cítil, kdyby ti kapitán nedovolil odejít ze hřiště, i když tě bolí ruka?',beats:[
-      [10,'Trvá na tom, že se zápas dohraje, i když potlouk Harryho zjevně pronásleduje.']
     ]},
     hedvika:{ahead:'Co by sis napsal své sově, kdyby ti někdo na dopisy odpovídal?',beats:[
       [1,'Zavřená v kleci čeká, až bude Harry moct poslat dopis kamarádům.']
