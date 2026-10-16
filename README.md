@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 36 v appce, **22 má portrét** — 16 převzatých z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 6 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog). Zbylých 14 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 36 v appce, **26 má portrét** — 16 převzatých z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 10 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes). Zbylých 10 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** zatím žádná z 18.
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 22 portrétů je hotovo (převzato z dílu 1), zbývá **32** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 26 portrétů je hotovo (převzato z dílu 1), zbývá **28** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -103,13 +103,13 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `dobby.jpg` | Dobby | ✅ |
 | `lockhart.jpg` | Zlatoslav Lockhart | ✅ |
 | `myrtle.jpg` | Ufňukaná Uršula | |
-| `colin.jpg` | Colin Creevey | |
+| `colin.jpg` | Colin Creevey | ✅ |
 | `riddle.jpg` | Tom Rojvol Raddle | |
 | `lucius.jpg` | Lucius Malfoy | |
 | `sprout.jpg` | Profesorka Prýtová | ✅ |
 | `aragog.jpg` | Aragog (pavouk) | ✅ |
-| `fawkes.jpg` | Fawkes (fénix) | |
-| `bazilisek.jpg` | Bazilišek | |
+| `fawkes.jpg` | Fawkes (fénix) | ✅ |
+| `bazilisek.jpg` | Bazilišek | ✅ |
 | `artur.jpg` | Arthur Weasley | |
 | `molly.jpg` | Molly Weasleyová | ✅ |
 | `justin.jpg` | Justin Finch-Fletchley | |
@@ -117,7 +117,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `crabbegoyle.jpg` | Crabbe a Goyle | |
 | `kratiknot.jpg` | Profesor Kratiknot | |
 | `wood.jpg` | Oliver Wood | |
-| `hedvika.jpg` | Hedvika (sova) | |
+| `hedvika.jpg` | Hedvika (sova) | ✅ |
 
 ### Styl
 
