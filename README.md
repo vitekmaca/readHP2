@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 36 v appce, **16 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon). Zbylých 20 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 36 v appce, **19 má portrét** — převzaté rovnou z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon). Zbylých 17 nových postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** zatím žádná z 18.
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 16 portrétů je hotovo (převzato z dílu 1), zbývá **38** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 19 portrétů je hotovo (převzato z dílu 1), zbývá **35** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -99,14 +99,14 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `draco.jpg` | Draco Malfoy | ✅ (z dílu 1) |
 | `vernon.jpg` | Strýc Vernon Dursley | ✅ (z dílu 1) |
 | `norrisova.jpg` | Paní Norrisová (kočka) | |
-| `ginny.jpg` | Ginny Weasleyová | |
+| `ginny.jpg` | Ginny Weasleyová | ✅ |
 | `dobby.jpg` | Dobby | |
-| `lockhart.jpg` | Zlatoslav Lockhart | |
+| `lockhart.jpg` | Zlatoslav Lockhart | ✅ |
 | `myrtle.jpg` | Ufňukaná Uršula | |
 | `colin.jpg` | Colin Creevey | |
 | `riddle.jpg` | Tom Rojvol Raddle | |
 | `lucius.jpg` | Lucius Malfoy | |
-| `sprout.jpg` | Profesorka Prýtová | |
+| `sprout.jpg` | Profesorka Prýtová | ✅ |
 | `aragog.jpg` | Aragog (pavouk) | |
 | `fawkes.jpg` | Fawkes (fénix) | |
 | `bazilisek.jpg` | Bazilišek | |
