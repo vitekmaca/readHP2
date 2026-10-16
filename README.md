@@ -4,7 +4,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 36 v appce, **31 má portrét** — 16 převzatých z dílu 1 (u Draca a Hagrida nahrazeno novějším obrázkem) u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 15 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová, Tom Raddle). Zbylých 5 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Postavy:** 36 v appce, **32 má portrét** — 16 převzatých z dílu 1 (u Draca a Hagrida nahrazeno novějším obrázkem) u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 16 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová, Tom Raddle, Kratiknot). Zbylých 4 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
 - **Ilustrace kapitol:** 1 z 18 (kap. 3, Ford Anglia nad Doupětem).
 - **Audio:** zatím žádné namluvené kapitoly.
 
@@ -23,7 +23,7 @@ Appka je jen česky (žádný jazykový přepínač). Jména míst a postav drž
 
 ## ⚠️ Autorská práva — proč musí repo zůstat soukromé
 
-15 portrétů (postavy vracející se z dílu 1) je převzato přímo z `readHP` — naskenované/vyfocené stránky z **Jim Kayho Illustrated Edition** (Bloomsbury/Scholastic), komerční chráněné dílo, ne volně šiřitelné. Platí úplně stejné pravidlo jako u dílu 1: použití je v pořádku jen jako **osobní, neveřejná appka pro rodinu**. Repo **nesmí** být veřejné a GitHub Pages **nesmí** být zapnuté, dokud tyhle obrázky v `assets/` jsou.
+15 portrétů (postavy vracející se z dílu 1) je převzato přímo z `readHP` — naskenované/vyfocené stránky z **Jim Kayho Illustrated Edition** (Bloomsbury/Scholastic), komerční chráněné dílo, ne volně šiřitelné. Portrét profesora Kratiknota je fanouškovská kresba jiného konkrétního autora (Vladislav Pantic), staženo z internetu, ne z knihy — jiný typ zdroje, stejné pravidlo použití (podpis z obrázku odříznut). Platí úplně stejné pravidlo jako u dílu 1: použití je v pořádku jen jako **osobní, neveřejná appka pro rodinu**. Repo **nesmí** být veřejné a GitHub Pages **nesmí** být zapnuté, dokud tyhle obrázky v `assets/` jsou.
 
 ## Struktura projektu
 
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 31 portrétů a 1 scéna je hotovo (převzato z dílu 1), zbývá **22** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 32 portrétů a 1 scéna je hotovo (převzato z dílu 1), zbývá **21** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -115,7 +115,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `justin.jpg` | Justin Finch-Fletchley | |
 | `popletal.jpg` | Kornelius Popletal | ✅ |
 | `crabbegoyle.jpg` | Crabbe a Goyle | |
-| `kratiknot.jpg` | Profesor Kratiknot | |
+| `kratiknot.jpg` | Profesor Kratiknot | ✅ |
 | `wood.jpg` | Oliver Wood | |
 | `hedvika.jpg` | Hedvika (sova) | ✅ |
 
