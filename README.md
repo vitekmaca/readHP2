@@ -4,8 +4,8 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 ## Aktuální stav
 
-- **Postavy:** 36 v appce, **26 má portrét** — 16 převzatých z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 10 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes). Zbylých 10 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
-- **Ilustrace kapitol:** zatím žádná z 18.
+- **Postavy:** 36 v appce, **30 má portrét** — 16 převzatých z dílu 1 u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 14 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová). Zbylých 6 postav zatím portrét nemá (viz seznam níže — tentokrát bez omezení na to, ke komu máme hezkou grafiku).
+- **Ilustrace kapitol:** 1 z 18 (kap. 3, Ford Anglia nad Doupětem).
 - **Audio:** zatím žádné namluvené kapitoly.
 
 Appka funguje úplně stejně jako díl 1 i bez obrázků a audia — postavy mají místo portrétu ikonku, kapitoly bez nahrávky mají vlastní hlášku a ilustrace prostě chybí. Vše se doplní postupně stejným způsobem jako u prvního dílu.
@@ -49,7 +49,7 @@ Skript vezme `tajemna-komnata.template.html`, nahradí tokeny obrázků z `asset
 
 ## Co přesně potřebuju od tebe (obrázky)
 
-Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 26 portrétů je hotovo (převzato z dílu 1), zbývá **28** — `build.mjs` ale běží i s částí chybějící.
+Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno). Z **54 souborů** celkem (18 scén + 36 portrétů) už 30 portrétů a 1 scéna je hotovo (převzato z dílu 1), zbývá **23** — `build.mjs` ale běží i s částí chybějící.
 
 ### 18 ilustrací kapitol
 
@@ -59,7 +59,7 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 |---|---|
 | 1 | Harry sedí smutně sám o narozeninách, zatímco dole slaví Dursleyovi s Masonovými |
 | 2 | Domácí skřítek Dobby na Harryho posteli, vteřinu před shozeným dortíkem |
-| 3 | Rezavý létající ford anglia přistává nad zahradou Doupěte |
+| 3 | Světle modrý létající ford anglia nad Doupětem ✅ |
 | 4 | Rvačka pana Weasleyho s Luciusem Malfoyem v knihkupectví Flourish a Blotts |
 | 5 | Rozbitý ford anglia zaklíněný ve Vrbě mlátičce |
 | 6 | Třída s chrániči uší kolem řvoucí mandragory na bylinkářství |
@@ -98,22 +98,22 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | `voldemort.jpg` | Voldemort | ✅ (z dílu 1) |
 | `draco.jpg` | Draco Malfoy | ✅ (z dílu 1) |
 | `vernon.jpg` | Strýc Vernon Dursley | ✅ (z dílu 1) |
-| `norrisova.jpg` | Paní Norrisová (kočka) | |
+| `norrisova.jpg` | Paní Norrisová (kočka) | ✅ |
 | `ginny.jpg` | Ginny Weasleyová | ✅ |
 | `dobby.jpg` | Dobby | ✅ |
 | `lockhart.jpg` | Zlatoslav Lockhart | ✅ |
 | `myrtle.jpg` | Ufňukaná Uršula | |
 | `colin.jpg` | Colin Creevey | ✅ |
 | `riddle.jpg` | Tom Rojvol Raddle | |
-| `lucius.jpg` | Lucius Malfoy | |
+| `lucius.jpg` | Lucius Malfoy | ✅ |
 | `sprout.jpg` | Profesorka Prýtová | ✅ |
 | `aragog.jpg` | Aragog (pavouk) | ✅ |
 | `fawkes.jpg` | Fawkes (fénix) | ✅ |
 | `bazilisek.jpg` | Bazilišek | ✅ |
-| `artur.jpg` | Arthur Weasley | |
+| `artur.jpg` | Arthur Weasley | ✅ |
 | `molly.jpg` | Molly Weasleyová | ✅ |
 | `justin.jpg` | Justin Finch-Fletchley | |
-| `popletal.jpg` | Kornelius Popletal | |
+| `popletal.jpg` | Kornelius Popletal | ✅ |
 | `crabbegoyle.jpg` | Crabbe a Goyle | |
 | `kratiknot.jpg` | Profesor Kratiknot | |
 | `wood.jpg` | Oliver Wood | |
