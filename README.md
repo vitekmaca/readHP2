@@ -6,7 +6,7 @@ Interaktivní průvodce druhým rokem v Bradavicích, pro předčítání dětem
 
 - **Postavy:** 34 v appce, **všech 34 má portrét** ✅ — 16 převzatých z dílu 1 (u Draca a Hagrida nahrazeno novějším obrázkem) u postav, co se vrací (Harry, Ron, Hermiona, Hagrid, Brumbál, McGonagallová, Snape, Neville, Nick, Filch, Fred a George, Percy, Madame Pomfreyová, Voldemort, Draco, strýc Vernon) a 16 nových (Ginny, Lockhart, profesorka Prýtová, Molly, Dobby, Aragog, Colin, Hedvika, Bazilišek, Fawkes, Arthur, Lucius, Popletal, paní Norrisová, Tom Raddle, Kratiknot). Z původního plánu vypadli Justin Finch-Fletchley a Oliver Wood (bez obrázku). Harry a Hermiona mají novější portrét (fotky z knihy), Uršula a Crabbe s Goylem jsou taky fotky stránek (nižší kvalita).
 - **Ilustrace kapitol:** 1 z 18 (kap. 3, Ford Anglia nad Doupětem).
-- **Audio:** kapitoly 1–2 (`assets/audio/1.m4a`–`2.m4a`) mají nahrávku, 3–18 zatím nic.
+- **Audio:** kapitoly 1–3 (`assets/audio/1.m4a`–`3.m4a`) mají nahrávku, 4–18 zatím nic.
 
 Appka funguje úplně stejně jako díl 1 i bez obrázků a audia — postavy mají místo portrétu ikonku, kapitoly bez nahrávky mají vlastní hlášku a ilustrace prostě chybí. Vše se doplní postupně stejným způsobem jako u prvního dílu.
 
