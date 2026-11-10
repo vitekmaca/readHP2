@@ -65,16 +65,16 @@ Appka bez obrázků nezobrazí nic u postav a scén kapitol (jen ikonku/prázdno
 | 6 | Třída s chrániči uší kolem řvoucí mandragory na bylinkářství |
 | 7 | Ron plive slimáky po kletbě, která se mu obrátila zlomenou hůlkou |
 | 8 | Stovky duchů na oslavě úmrtí, cestou zpátky zkamenělá paní Norrisová u nápisu na zdi |
-| 9 | Zkamenělí Justin a Skoro bezhlavý Nick na chodbě |
+| 9 | Pavouci prchají škvírou v okně u nápisu na zdi |
 | 10 | Zběsilý potlouk pronásledující Harryho nad famfrpálovým hřištěm |
 | 11 | Harry syčí hadím jazykem na Dracem vyčarovaného hada na souboji |
 | 12 | Hermioně rostou kočičí vousky nad kotlíkem s Mnoholičným lektvarem |
 | 13 | Harry se dívá do deníku, ze kterého se vynořuje Tom Raddle |
-| 14 | Ministr Popletal odvádí Hagrida, který ukazuje na pavouky |
+| 14 | Ministr Popletal odvádí Hagrida, Harry a Ron pod neviditelným pláštěm |
 | 15 | Harry a Ron tváří v tvář obřímu pavoukovi Aragogovi |
 | 16 | Ron odhazuje kamení ze zřícené chodby, Harry mizí sám dál |
 | 17 | Harry s mečem čelí Baziliškovi, nad hlavou fénix Fawkes |
-| 18 | Harry podává Luciusovi ponožku, Dobby září štěstím |
+| 18 | Lucius odhodí ponožku z deníku, Dobby ji chytí a září štěstím |
 
 ### 34 portrétů postav
 
